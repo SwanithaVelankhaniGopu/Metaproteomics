@@ -1,4 +1,4 @@
-# Gut Metaproteomics — PXD063632
+# Gut Metaproteomics : PXD063632
 
 ## Overview
 Independent replication of the MetaDIA paper (Duan et al. 2026) benchmark experiment using FragPipe v23.1 on dataset PXD063632 from PRIDE database.
