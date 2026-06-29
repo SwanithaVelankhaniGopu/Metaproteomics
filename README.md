@@ -45,5 +45,5 @@ Independent replication of the MetaDIA paper (Duan et al. 2026) benchmark experi
     ├── fragpipe_microbiome_only.slurm
     └── fragpipe_gut_v2.slurm
 ```
-    └── fragpipe_gut_v2.slurm
+
 
