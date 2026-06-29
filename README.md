@@ -5,7 +5,7 @@ Independent replication of the MetaDIA paper (Duan et al. 2026) benchmark experi
 
 ## Dataset
 - Source: PRIDE database PXD063632
-- Publication: Duan et al. 2026 — MetaDIA: A DDA-free Database Reduction Strategy for DIA Human Gut Metaproteomics
+- Publication: Duan et al. 2026, MetaDIA: A DDA-free Database Reduction Strategy for DIA Human Gut Metaproteomics
 - 9 samples in triplicate:
   - MIX1 (Sample C): Pure Blautia hydrogenotrophica
   - MIX17 (Sample A): Pure human gut microbiome stool
