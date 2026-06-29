@@ -33,6 +33,7 @@ Independent replication of the MetaDIA paper (Duan et al. 2026) benchmark experi
 - FDR: 1%
 
 ## Repository Structure
+```
 ├── README.md
 ├── fragpipe-files.fp-manifest
 ├── workflows/
@@ -42,5 +43,7 @@ Independent replication of the MetaDIA paper (Duan et al. 2026) benchmark experi
 └── slurm/
     ├── fragpipe_blautia_only.slurm
     ├── fragpipe_microbiome_only.slurm
+    └── fragpipe_gut_v2.slurm
+```
     └── fragpipe_gut_v2.slurm
 
