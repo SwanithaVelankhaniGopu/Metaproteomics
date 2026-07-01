@@ -27,10 +27,26 @@ Independent replication of the MetaDIA paper (Duan et al. 2026) benchmark experi
 - Workflow: DIA_SpecLib_Quant (library-free)
 - Enzyme: strict trypsin
 - Missed cleavages: 1
-- Peptide length: 7-50 aa
 - Precursor mass tolerance: 20 ppm
 - Fragment mass tolerance: 20 ppm
 - FDR: 1%
+
+## Reference Databases
+
+All reference databases are available for download from the GitHub Release:
+
+**[Download Reference Databases v1.0](https://github.com/SwanithaVelankhaniGopu/Metaproteomics/releases/tag/v1.0)**
+
+| File | Size | Description |
+|---|---|---|
+| blautia_only_db.fasta.gz | 1.3 MB | Blautia hydrogenotrophica only |
+| gut_microbiome_only_db.fasta.gz | 239 MB | Full gut microbiome database |
+| combined_metaproteome_db_final_v2.fasta.gz | 240 MB | Combined metaproteome, 59 species |
+
+Decompress with:
+```bash
+gunzip filename.fasta.gz
+```
 
 ## Repository Structure
 ```
@@ -45,5 +61,11 @@ Independent replication of the MetaDIA paper (Duan et al. 2026) benchmark experi
     ├── fragpipe_microbiome_only.slurm
     └── fragpipe_gut_v2.slurm
 ```
+
+## Related Resources
+
+- [PRIDE Dataset PXD063632](https://www.ebi.ac.uk/pride/archive/projects/PXD063632)
+- [FragPipe Documentation](https://fragpipe.nesvilab.org/)
+- [Proteomics Benchmarking Repo](https://github.com/SwanithaVelankhaniGopu/Proteomics)
 
 
